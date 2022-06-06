@@ -14,100 +14,146 @@
     />
   </head>
   <body>
-    <nav>
-      <h1><a href="#"></a> Student Name</h1>
-      <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="Portfolio">Portfolio</a></li>
-        <li><a href="Contact">Contact</a></li>
-      </ul>
-    </nav>
-    <main class="info">
-      <img
-        class="profile-picture"
-        src="images/responsive-layout-profile.png"
-        alt="animated image of a person."
-      />
-      <p>
-        Hi! I'm an inspiring front-end web developer who has an interest in
-        responsive web designs. This is an example shown.
-      </p>
+    <main>
+      <header>
+        
+        <nav>
+          <h1 class="main-heading">Student Name</h1>
+          <ul class="nav-list">
+            <li class="list"><a href="#">Home</a></li>
+            <li class="list"><a href="#">Portfolio</a></li>
+            <li class="list"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="content-container">
+          <div class="profile-image">
+            <img
+              src="/images/responsive-layout-profile.png"
+              alt="animated image of a person"
+              id="profile-image"
+            />
+          </div>
+          <div class="content">
+            <p>
+              Hi! I'm a front-end developer who loves responsive design and CSS.
+              I recently finished a course inf front-end web desin at Treehouse
+              and am excited to put all my skills to use!
+            </p>
+          </div>
+        </div>
+      </header>
+      <!-- Portfolio Section -->
+      <section class="portfolio-wrapper">
+        <h3>Portfolio</h3>
+        <!-- Marketing page Card -->
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/portfolio-1.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>Marketing Page</h4>
+              <div class="blurb">
+                <p>
+                  This project hows the front page of a marketing website meant
+                  for a specific business i'm interested in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Search Page -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/portfolio-2.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>Search Page</h4>
+              <div class="blurb">
+                <p>
+                  This project searches through a specific database to find
+                  information that the userlooks up.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Travel App -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/portfolio-3.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>travel app</h4>
+              <div class="blurb">
+                <p>
+                  This project compares travel times based on different
+                  transportation methods and tells you the best one.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Map Of Favourite Spots -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/portfolio-4.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>map of favourite spots</h4>
+              <div class="blurb">
+                <p>
+                  This project huses mapping API's to plot points for my favourite
+                  spots in the city for a <em>do-it-yourself</em> walking tour.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Photo Gallery -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/portfolio-5.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>photo gallery</h4>
+              <div class="blurb">
+                <p>
+                  This project shos pictures from a recent trip to the viewer and
+                  allows them to easily navigate through photos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Calculator -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/portfolio-6.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>calculator</h4>
+              <div class="blurb">
+                <p>
+                  Someone can enter in the numbers they want, and press the big
+                  blue button and get the results. this is filler
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <div class="Portfolio">
-      <h3>PORTFOLIO</h3>
-      <div class="col box-1">
-        <img
-          class="image"
-          src="images/portfolio-1.png"
-          alt="animated design of a web page."
-        />
-        <h2>Marketing Page</h2>
+    <footer>
+      <h3>contact</h3>
+      <div class="footer-blurb">
         <p>
-          This project shows the front page of a marketing websitemeant for a
-          specific business i'm interested in.
+          If you're interested in chatting or want more information about what
+          i've been working on, I'd love to hear from you!
         </p>
+        <p class="phone">Phone: <span>+1 (111) 555-1234</span></p>
+        <p class="email">Email: <span>email@yoursite.com</span></p>
       </div>
-      <div class="col box-2">
-        <img
-          class="image"
-          src="images/portfolio-2.png"
-          alt="animated design of a website search page."
-        />
-        <h2>Search Page</h2>
-        <p>
-          This project searches through a specific database to find information
-          that the user is trying to look up.
-        </p>
-      </div>
-      <div class="col box-3">
-        <img
-          class="image"
-          src="images/portfolio-3.png"
-          alt="animated image of a travel application."
-        />
-      </div>
-      <h2>Travel App</h2>
-      <p>
-        This project compares travel times based on different transportation
-        methods and tells you the best one.
-      </p>
-      <div class="col box-4">
-        <img
-          class="image"
-          src="images/portfolio-4.png"
-          alt="animated image of a map."
-        />
-      </div>
-      <h2>Map of Favourite Spots</h2>
-      <p>
-        This project uses mapping API's to plot points for my favourite spots in
-        the city for a do-it-yourself walking tour.
-      </p>
-      <div class="col box-5">
-        <img
-          class="image"
-          src="images/portfolio-5.png"
-          alt="animated of a photo gallery layout."
-        />
-        <h2>Photo Gallery</h2>
-        <p>
-          This project shows pictures from a recent trip to the viewer and
-          allows them to easily navigate through photos.
-        </p>
-      </div>
-      <div class="col box-6">
-        <img
-          class="image"
-          src="images/portfolio-6.png"
-          alt="animated image of a calculator web application."
-        />
-        <h2>Calculator</h2>
-        <p>
-          Someone can enter in the numbers they want, and press the big blue
-          button and get the result.
-        </p>
-      </div>
-    </div>
-    <footer></footer>
+      <hr />
+      <div class="footer-bottom">
+        <h2>Student Name</h2>
+        <div class="backtotop"><a href="#"> Back To Top</a></div>
+      
+    </footer>
   </body>
 </html>
